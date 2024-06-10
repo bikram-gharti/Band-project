@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* navbar section */
+.header{
+    position: sticky;
+    top: 0;
+    height: 46px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.header .nav{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    border: none;
+}
+.navbar .nav{
+    list-style-type: none;
+}
+.nav a{
+    padding: 12px 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav a:hover{
+    font-weight: 400;
+    color: black;
+    background-color: #ccc;
+}
+.header .icon{
+    padding: 12px 24px;
+    text-align: center;
+    width: 60px;
+}
+.header .icon:hover{
+    background-color: #f44336;
+}
+/* main image section */
+.main_image_section .text,.main_image_section h3{
+    margin-top: -130px;
+    text-align: center;
+    color: white;
+}
+.main_image_section h4{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+.main_image_section .text{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+/* band section */
+.band_section{
+    width: 60%;
+    margin: auto;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    font-size: 14px;
+    text-align: justify;
+}
+h3{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 10px;
+}
+p i{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    opacity: 0.7;
+}
+.band_member{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.band_member .member{
+    text-align: center;
+}
+.member p{
+    margin: 20px 0;
+}
+.member img{
+    border-radius: 4px;
+}
+/* tour section */
+.tour{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.tour_box{
+    width: 800px;
+    padding-top: 60px;
+    margin: auto;
+}
+.white_box{
+    margin: 40px 0;
+}
+.white_box li{
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    color: #757575;
+    font-size: 14px;
+    background-color: white;
+    list-style-position: inside;
+    list-style-type: none;
+}
+li span{
+    background-color: #f44336;
+    color: white;
+    margin-left: 16px;
+    padding: 2px;
+}
+li .s3{
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    font-size: 17px;
+    float: right;
+    background-color: black;
+    padding: 1px;
+    border-radius: 50%;
+}
+.tour_box .img_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.img_box .image{
+    width: 32.1%;
+    background-color: white;
+    color: black;
+    margin-bottom: 100px;
+}
+.image img:hover{
+    opacity: 0.8;
+}
+.text{
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+.text p{
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.text .heading{
+    font-weight: 600;
+}
+.text p i{
+    font-style: normal;
+    text-align: left;
+    margin: 0;
+}
+.text button{
+    height: 40px;
+    width: 115px;
+    font-size: 15px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: #ccc;
+    color: black;
+}
+/* contact section */
+.contact{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.contact .contact_box{
+    width: 800px;
+    margin: auto;
+}
+.contact_box .content{
+    display: flex;
+    margin-top: 50px;
+}
+.content .information{
+    width: 50%;
+    font-size: 17px;
+}
+.information i{
+    margin: 0 15px 10px 0;
+}
+.content .form{
+    width: 50%;;
+}
+.form .first_section{
+    display: flex;
+    justify-content: space-between;
+}
+.form input{
+    width: 48%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.form .message{
+    width: 100%;
+}
+.form button{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-top: 5px;
+    float: right;
+}
+.form button:hover{
+    background-color: #ccc;
+    color: black;
+}
+/* map section */
+.map_section{
+    margin-bottom: 80px;
+}
+/* footer */
+.footer{
+    text-align: center;
+    font-size: 23px;
+    opacity: 0.7;
+    margin-bottom: 80px;
+}
+.footer i:hover{
+    opacity: 0.5;
+}
+.footer p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.footer p a{
+    color: black;
+}
